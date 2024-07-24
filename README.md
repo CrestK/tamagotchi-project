@@ -56,7 +56,7 @@ _ reset own creature, quit the game<br>
 ## Docker
 To install with docker clone the repository and build the image, then create a container using the image using these commands.
 ```
-git clone https://github.com/hanhaechi/tamagotchi-project.git
+git clone [https://github.com/hanhaechi/tamagotchi-project.git](https://github.com/CrestK/tamagotchi-project.git)
 cd tamagotchi-project
 sudo docker build -t tamogatchi .
 sudo docker run -p 4040:80 tamogatchi
